@@ -696,7 +696,7 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src/styles.css")
+          path.join(process.cwd(), "**/*.css")
         ],
         "test": /\.css$/,
         "use": [
